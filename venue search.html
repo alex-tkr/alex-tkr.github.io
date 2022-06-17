@@ -11,36 +11,47 @@
   <body>    
     
     <div class="container">
-        <div class="nav">
-            <nav class="main-nav">
-                <div class="nav-centered">
-                    <a href="index.html" class="active">Atlanta Events</a>
-                  </div>
-    
-                <a href="our team.html">О нас</a>
-                <a href="venue search.html">Поиск помещений</a>
-                <div class="nav-right">
-                    <a href="support.html" class="nav-item-link">Поддержка</a>
-                    <a href="sign in.html" class="nav-item-link">Вход</a>
-                </div>
-            </nav>
-          </div>
+      <div class="nav">
+        <nav class="main-nav">
+          <nav>
+            <ul>
+                <li><a href="our team.html">О нас</a></li>
+                <li><a href="venue search.html">Поиск помещений</a></li>
+                <li><a href="index.html" class="active">Atlanta Events</a></li>
+                <li><a href="#" class="nav-item-link">Аккаунт</a>
+                    <ul>
+                      <li><a href="#">Мой профиль</a></li>
+                      <li><a href="#">Выход</a></li>
+                      <li><a href="#">Мои заказы</a></li>
+                      <li><a href="#">Оформить заказ</a></li>
+                      <li><a href="#">Добавить комнату</a></li>
+                      <li><a href="#">Мои комнаты</a></li>
+                      <li><a href="#">Добавить персонал</a></li>
+                      <li><a href="#">Мой персонал</a></li>
+                      <li><a href="#">Изменение ролей пользователей</a></li>
+                  </ul>
+                </li>
+                <li><a href="sign in.html" class="nav-item-link">Вход</a></li>
+            </ul>
+      </nav>
+        </nav>
+      </div>
           <div class="block1-text-search">
-            <h2>Answer a few quick questions, we'll match you with the very best of our venues</h2>
-            <p>Simply complete your brief and we'll search our 1000 venues and match you with the best ones.</p>
+            <h2>Ответьте на несколько быстрых вопросов, и мы подберем для вас самое лучшее из наших помещений</h2>
+            <p>Просто заполните анкету, и мы выполним поиск среди 1000 наших помещений и подберем для вас лучшие.</p>
           </div>
           <div class="block2-fill-out-form-search">
             <form>
               <fieldset class="fieldset-search">
                 <div class="flexContainer">
-                <div class="event-type">What type of event are you organising?<br class="field-item-search"><input type = "event-type" placeholder="Выберите тип события"/><br></div>
-                <div class="event-number">How many people are coming?<br class="field-item-search"><input type = "event-number" placeholder="Количество гостей"/><br></div>
+                <div class="event-type">Какой тип мероприятия вы организуете?<br class="field-item-search"><input type = "event-type" placeholder="Выберите тип события"/><br></div>
+                <div class="event-number">Сколько людей придет?<br class="field-item-search"><input type = "event-number" placeholder="Количество гостей"/><br></div>
                 </div>
-                <div class="event-location">Where are you looking to hold your event?<br class="field-item-search"><input type = "event-location" placeholder="Местоположение события"/><br></div>
+                <div class="event-location">Где вы планируете провести свое событие?<br class="field-item-search"><input type = "event-location" placeholder="Местоположение события"/><br></div>
                 <div class="flexContainer">
-                <div class="date">When is your event?<br class="field-item-search"><input type = "date" placeholder="Когда ваше событие?"/><br></div>
+                <div class="date">Когда ваше мероприятие?<br class="field-item-search"><input type = "date"/><br></div>
                 
-                <div class="event-time">What time is your event?<div class="flexContainer"><br class="field-item-search"><input type = "start-time" placeholder="Начинается"/>
+                <div class="event-time">Во сколько ваше событие?<div class="flexContainer"><br class="field-item-search"><input type = "start-time" placeholder="Начинается"/>
                 <br class="field-item-search"><input type = "end-time" placeholder="Заканчивается"/><br></div></div>
                 </div>
                 
@@ -49,51 +60,51 @@
           </div>
           <hr class="hr1">
           <div class="catering">
-            <h2>Catering</h2>
-            <p>What are you planning for food & drinks?</p>
+            <h2>Кейтеринг</h2>
+            <p>Что вы планируете из еды и напитков?</p>
             <div class="flexContainer">
-              <label class="container-box">Go with the venue’s caterer
+              <label class="container-box">Пойдите с кейтерингом места проведения
               <input type="checkbox">
               <span class="checkmark"></span>
             </label>
-            <label class="container-box">No catering needed
+            <label class="container-box">Кейтеринг не нужен
               <input type="checkbox">
               <span class="checkmark"></span>
             </label>
             </div>
-            <label class="container-box">Bring my own food & drinks
+            <label class="container-box">Приносить свою еду и напитки
               <input type="checkbox">
               <span class="checkmark"></span>
             </label>
             
-            <label class="container-box">Not sure
+            <label class="container-box">Не уверен(-а)
               <input type="checkbox">
               <span class="checkmark"></span>
             </label>
           </div>
           <hr>
           <div class="layout">
-            <h2>Layout</h2>
-            <p>What's your preferred layout?</p>
+            <h2>Тип заведения</h2>
+            <p>Предпочитаемый тип заведения</p>
             <div class="flexContainer">
-            <label class="container-box">Classroom
+            <label class="container-box">Аудитория
               <input type="checkbox">
               <span class="checkmark"></span>
             </label>
-            <label class="container-box">Restaurant
+            <label class="container-box">Ресторан
               <input type="checkbox">
               <span class="checkmark"></span>
             </label>
             </div>
-            <label class="container-box">Theatre
+            <label class="container-box">Театр
               <input type="checkbox">
               <span class="checkmark"></span>
             </label>
-            <label class="container-box">Not sure
+            <label class="container-box">Не уверен(-а)
               <input type="checkbox">
               <span class="checkmark"></span>
             </label>
-            <label class="container-box">Open space
+            <label class="container-box">Открытое помещение
               <input type="checkbox">
               <span class="checkmark"></span>
             </label>
@@ -102,11 +113,11 @@
             <form class="form-box">
               <fieldset class="fieldset-box">
                 <div class="flexContainer">
-                  <div class="form-item"><br class="field-item-search">Имя * <input type = "name" placeholder="Впишите имя"/></div>
+                  <div class="form-item"><br class="field-item-search">Имя * <input type = "name" placeholder="Впишите имя" required/></div>
                   <div class="form-item"><br class="field-item-search">Название компании <input type = "company-name" placeholder="Впишите название компании"/></div>
                 </div>
                 <div class="flexContainer">
-                  <div class="form-item"><br class="field-item-search">E-mail * <input type = "email" placeholder="Впишите e-mail"/></div>
+                  <div class="form-item"><br class="field-item-search">E-mail * <input type = "email" placeholder="Впишите e-mail" required/></div>
                   <div class="form-item"><br class="field-item-search">Номер телефона <input type = "phone-number" placeholder="Впишите номер телефона"/></div>
                 </div>
                   <p>Предпочитаемое средство связи</p>
@@ -133,7 +144,7 @@
           </form>
           </div>
           <footer style="margin-top:30px">
-            Copyright © 2022 Atlanta Events. All rights reserved
+            Автоское право © 2022 Atlanta Events. Все права защищены
         </footer>
         </div>
       </body>

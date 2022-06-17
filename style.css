@@ -19,7 +19,7 @@ hr{
     font-weight: 300;
     position: relative;
 }
-/*Navigation menu*/
+/* Navigation menu
 .nav {
     position: relative;
     background-color: rgb(255, 255, 255);
@@ -67,6 +67,49 @@ hr{
       left: 0;
       transform: none;
     }
+}  */
+nav {
+    margin: 0;
+    background-color: #ffffff;
+}
+nav ul {
+    padding:0;
+    margin:0;
+    list-style: none;
+    position: relative;
+}
+nav ul li {
+    margin: 0px -7px 0 0;
+    display:inline-block;
+    background-color: #ffffff;
+}
+nav a {
+    display:block;
+    padding:0 10px;
+    color:#000000;
+    font-size:20px;
+    line-height: 60px;
+    text-decoration:none;
+}
+nav a:hover {
+    background-color: #9CAEA9;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+nav ul li:hover > ul {
+    display:inherit;
+    transition: 0.3s;    
+}
+nav ul ul li {
+    min-width:170px;
+    float:none;
+    display:list-item;
+    position: relative;
 }
 /*fill out form*/
 .form{
@@ -256,6 +299,7 @@ input[type=date] {
     width: 600px;
     height: 151px;
     margin-left: 100px;
+    margin-bottom: 15px;
 }
 /*images*/
 .vector-image{
